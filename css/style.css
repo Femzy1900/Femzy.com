@@ -1,0 +1,171 @@
+.navbar {
+    background: rgb(150, 9, 9);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0;
+    
+}
+.icon{
+    font-size: 44px;
+    font-weight: 500;
+    color: rgb(245, 244, 242);
+    margin-right: 260px;
+    padding-bottom: 0;
+}
+.navbar .navbar-nav a{
+    margin-left: 40px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.navbar .navbar-nav .nav-link:hover {
+    color: cornsilk;
+}
+
+.home{
+    background: rgb(190, 183, 155);
+    text-align: center;
+    padding: 110px 0;
+    font-size: 30px;
+}
+.home .bold h1 {
+    font-size: 6rem;
+    margin-top: 20px;
+}
+.home .btn {
+    font-size: 15px;
+    border: 3px solid black;
+    color: white;
+    background: rgb(150, 9, 9);
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+.home .btn:hover{
+    color: rgb(150, 9, 9);;
+    background: white;
+}
+.about-us .about h1{
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(150, 9, 9);
+}
+.about-us #pic img{
+    width: 330px;
+    height: 360px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+.about-us p {
+    padding-top: 70px;
+    justify-content: center;
+    text-align: center;
+}
+.about-us .btn {
+    border: 2px solid rgb(150, 9, 9);
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.about-us .btn:hover{
+    background: rgb(167, 33, 33);
+    border: 2px solid black;
+    color: white;
+}
+
+.service{
+    background: black;
+}
+.service .header h3 {
+    position:relative;
+    text-align:center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom:10px;
+    padding-bottom:20px;
+    color: rgb(255, 255, 255);
+}
+.service .header h5 {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 20px;
+    color: white;
+
+}
+.service .row {
+   margin-left: 30px;
+   padding-bottom: 80px;
+}
+.service .row h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.service .row .col-sm-3 {
+    margin-right: 80px;
+    background: rgb(150, 9, 9);
+    color: white;
+    margin-bottom: 20px;
+}
+.service .row .col-sm-3:hover{
+    background: white;
+    color: rgb(150, 9, 9);
+    font-size: 16px;
+    transition: 1.5s;
+}
+.contact {
+    margin-bottom: 20px;
+}
+.contact .header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact .header h3 {
+    font-size: 45px;
+}
+.contact .row h4{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+.contact .row {
+    margin-left: 30px;
+}
+.contact .row .input-1 {
+    padding-right: 60px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.contact .row .input-2 {
+    padding-right: 30px;
+
+}
+.contact .row .input-3 {
+    padding-right: 160px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.contact .row .input-4 {
+    padding-right: 160px;
+    padding-bottom: 50px;
+}
+.contact .row .btn {
+    margin-top: 30px;
+    background: rgb(150, 9, 9);
+    color: white;
+}
+.contact .row .btn:hover {
+    background: white;
+    border: 2px solid rgb(150, 9, 9);
+    color: rgb(150, 9, 9);
+}
+
+
+.footer {
+    background: rgb(160, 157, 157);
+    padding: 9px;
+    text-align: center;
+    margin-top: 8px;
+}
+.footer .container span{
+    color: rgb(150, 9, 9);
+}
